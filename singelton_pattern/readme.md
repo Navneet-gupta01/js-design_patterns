@@ -1,7 +1,7 @@
 ## Singelton Pattern
 
--- Create Only One Instance of an object.
--- No one can Create more than one Instance of that class
+* Create Only One Instance of an object.  
+* No one can Create more than one Instance of that class  
 
 ```Java
 public final class Singleton {
@@ -24,4 +24,4 @@ public final class Singleton {
 }
 ```
 
--- uses lazy initialization, where the instance is created when the static method is first invoked. If the static method might be called from multiple threads simultaneously, measures may need to be taken to prevent race conditions that could result in the creation of multiple instances of the class. The following is a thread-safe sample implementation, using lazy initialization with double-checked locking, written in Java
+* uses lazy initialization, where the instance is created when the static method is first invoked. If the static method might be called from multiple threads simultaneously, measures may need to be taken to prevent race conditions that could result in the creation of multiple instances of the class. The following is a thread-safe sample implementation, using lazy initialization with double-checked locking, written in Java  
