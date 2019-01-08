@@ -1,6 +1,6 @@
-const SMSClient = require('./client')
+const client = require('./client')
 
-const client = new SMSClient().getInstance()
+// const client = new SMSClient().getInstance()
 
 class Order {
   constructor (itemDetails, mobileNumber) {

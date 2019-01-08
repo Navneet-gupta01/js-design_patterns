@@ -1,8 +1,8 @@
-const SMSClient = require('./client')
+const client = require('./client')
 const Order = require('./order')
 const Registration = require('./registration')
 
-const client = new SMSClient().getInstance()
+// const client = new SMSClient().getInstance()
 const registration = new Registration()
 
 
